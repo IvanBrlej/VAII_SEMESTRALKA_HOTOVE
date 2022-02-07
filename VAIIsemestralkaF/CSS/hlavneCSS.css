@@ -1,0 +1,206 @@
+.navbar {
+    text-align: left;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: cadetblue;
+}
+
+.navbar li:hover {
+    background-color: darkblue;
+    border-radius: 20px;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.navbar-brand{
+    color: darkblue;
+}
+
+.nav-link{
+    color: darkblue;
+}
+
+body{
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+}
+
+h5 {
+    font-family:Baskerville,Times,'Times New Roman',serif;
+    font-size:75px;
+    color:darkblue;
+    font-variant:small-caps;
+    text-align:center;
+    font-weight:bold;
+    padding:15px 0px 15px 0px;
+}
+
+h6{
+    font-family: "Comic Sans MS";
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p{
+    font-family: Candara;
+}
+
+span {
+    opacity: 0;
+    transition: all 0.7s ease;
+    transform: translateY(50px);
+    display: inline-block;
+}
+
+span.fadik {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.intro-text{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.5s all ease-in-out;
+}
+
+.into-appear{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+img{
+    width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bi-trash-fill{
+    background-color: #ff4c4c;
+    border-radius: 10px;
+    border-color: red;
+}
+
+.bi-trash-fill:hover{
+    background-color: #990000;
+    border-color: #990000;
+}
+
+.bi-pencil-fill{
+    background-color: #89CFF0;
+    border-color: #89CFF0;
+    border-radius: 10px;
+}
+
+.bi-pencil-fill:hover{
+    background-color: #0F52BA;
+    border-color: darkblue;
+}
+
+.btn_insert{
+    background-color: #7FFF00;
+    border-color: #7FFF00;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.btn_insert:hover{
+    background-color: #228B22;
+    border-color: #228B22;
+}
+
+.delete{
+    font-weight: bold;
+    background-color: #FA8072;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.delete:hover{
+    background-color: red;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+    width: 100%;
+    border-color: grey;
+}
+
+thead, th{
+    background-color: darkblue;
+    color: white;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+tr:hover {background-color: lightblue;}
+
+table{
+    border-radius: 10px;
+}
+
+.card-body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card{
+    background-color: #63a4ff;
+    background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+    border-color: black;
+}
+
+#slideshow {
+    margin: 80px auto;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+.footer {
+    background-color: #24262b;
+    padding: 30px;
+}
+
+.footer-col h4 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+.footer-col {
+    width: 25%;
+}
